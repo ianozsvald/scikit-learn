@@ -304,6 +304,8 @@ Samples generator
    ensemble.RandomForestRegressor
    ensemble.ExtraTreesClassifier
    ensemble.ExtraTreesRegressor
+   ensemble.BaggingClassifier
+   ensemble.BaggingRegressor
    ensemble.AdaBoostClassifier
    ensemble.AdaBoostRegressor
    ensemble.GradientBoostingClassifier
