@@ -299,13 +299,13 @@ Samples generator
    :toctree: generated/
    :template: class.rst
 
+   ensemble.BaggingClassifier
+   ensemble.BaggingRegressor
+   ensemble.ExtraTreesClassifier
+   ensemble.ExtraTreesRegressor
    ensemble.RandomForestClassifier
    ensemble.RandomTreesEmbedding
    ensemble.RandomForestRegressor
-   ensemble.ExtraTreesClassifier
-   ensemble.ExtraTreesRegressor
-   ensemble.BaggingClassifier
-   ensemble.BaggingRegressor
    ensemble.AdaBoostClassifier
    ensemble.AdaBoostRegressor
    ensemble.GradientBoostingClassifier
