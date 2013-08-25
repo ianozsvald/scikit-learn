@@ -46,7 +46,7 @@ import pylab as pl
 from sklearn import clone
 from sklearn.datasets import load_iris
 from sklearn.ensemble import (RandomForestClassifier, ExtraTreesClassifier,
-                              AdaBoostClassifier, BaggingClassifier)
+                              AdaBoostClassifier)
 from sklearn.externals.six.moves import xrange
 from sklearn.tree import DecisionTreeClassifier
 
@@ -66,8 +66,7 @@ plot_idx = 1
 
 models = [DecisionTreeClassifier(max_depth=None),
           RandomForestClassifier(n_estimators=n_estimators),
-          ExtraTreesClassifier(base_estimator=DecisionTreeClassifier(max_depth=3), n_estimators=n_estimators),
-          #BaggingClassifier(base_estimator=DecisionTreeClassifier(max_depth=3)),  #, n_estimators=n_estimators),
+          ExtraTreesClassifier(n_estimators=n_estimators),
           AdaBoostClassifier(DecisionTreeClassifier(max_depth=3),
                              n_estimators=n_estimators)]
 
